@@ -1,0 +1,9 @@
+.lead {}
+
+@media screen and (max-width: 1024px) {
+	.lead {}
+}
+
+@media screen and (max-width: 768px) {
+	.lead {}
+}

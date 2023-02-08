@@ -1,0 +1,13 @@
+.places {}
+
+@media screen and (max-width: 1280px) {
+	.places {}
+}
+
+@media screen and (max-width: 1024px) {
+	.places {}
+}
+
+@media screen and (max-width: 767px) {
+	.places {}
+}

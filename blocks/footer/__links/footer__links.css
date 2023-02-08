@@ -1,0 +1,5 @@
+.footer__links {}
+
+@media screen and (max-width: 700px) {
+	.footer__links {}
+}

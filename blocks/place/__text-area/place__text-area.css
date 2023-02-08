@@ -1,0 +1,5 @@
+.place__text-area {}
+
+@media screen and (max-width: 320px) {
+	.place__text-area {}
+}

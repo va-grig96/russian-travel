@@ -1,0 +1,9 @@
+.header__lang-link {}
+
+.header__lang-link:last-of-type {}
+
+.header__lang-link:hover {}
+
+@media screen and (max-width: 320px) {
+	.header__lang-link {}
+}
