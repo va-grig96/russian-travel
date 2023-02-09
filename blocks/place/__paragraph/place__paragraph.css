@@ -1,6 +1,12 @@
-.place__paragraph {}
+.place__paragraph {
+	font-size: 1.8rem;
+	line-height: 1.6;
+	font-weight: 400;
+}
 
-.place__paragraph:last-of-type {}
+.place__paragraph:not(:last-of-type) {
+	margin-bottom: 2.6rem;
+}
 
 @media screen and (max-width: 1023px) {
 	.place__paragraph {}

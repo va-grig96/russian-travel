@@ -1,4 +1,14 @@
-.photo-grid {}
+.photo-grid {
+	max-width: 1184px;
+	margin: 0 auto 9.2rem;
+
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+	justify-content: space-between;
+	align-content: space-between;
+	gap: 1.6rem
+}
 
 @media screen and (max-width: 1279px) {
 	.photo-grid {}

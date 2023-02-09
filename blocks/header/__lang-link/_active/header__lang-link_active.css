@@ -1,3 +1,11 @@
 .header__lang-link_active {
-    
+	border-bottom: 2px solid #fff;
+}
+
+.header__lang-link_active:hover {
+	opacity: 1;
+}
+
+.header__lang-link_active:hover::after {
+	content: none;
 }

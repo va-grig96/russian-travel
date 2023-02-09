@@ -1,4 +1,11 @@
-.place {}
+.place {
+	margin-bottom: 8rem;
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: repeat(minmax(440px, 1fr));
+	column-gap: 4rem;
+	row-gap: 4.8rem;
+}
 
 .place:first-of-type {}
 

@@ -1,1 +1,9 @@
-.header__links {}
+.header__links {
+	font-size: 2.4rem;
+	line-height: 1.15;
+	font-weight: 400;
+	width: 8.8rem;
+	padding-top: 13px;
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,3 +1,5 @@
-.place__link {}
-
-.place__link:hover {}
+.place__link {
+	font-size: 1.8rem;
+	line-height: 1.2;
+	font-weight: 400;
+}

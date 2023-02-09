@@ -1,4 +1,7 @@
-.intro {}
+.intro {
+	max-width: 98.4rem;
+	margin: 0 auto 9.2rem;
+}
 
 @media screen and (max-width: 1024px) {
 	.intro {}
