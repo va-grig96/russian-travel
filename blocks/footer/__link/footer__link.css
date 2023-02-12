@@ -1,9 +1,9 @@
 .footer__link:not(:last-child) {
-	margin-right: 1.8rem;
+	margin-right: 18px;
 }
 
-@media screen and (max-width: 700px) {
-	.footer__link {}
-
-
+@media screen and (max-width: 769px) {
+	.footer__link:not(:last-child) {
+		margin: 0 0 32px;
+	}
 }

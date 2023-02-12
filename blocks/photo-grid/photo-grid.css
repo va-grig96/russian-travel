@@ -1,6 +1,6 @@
 .photo-grid {
 	max-width: 1184px;
-	margin: 0 auto 9.2rem;
+	margin: 0 auto 92px;
 
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
@@ -10,14 +10,20 @@
 	gap: 1.6rem
 }
 
-@media screen and (max-width: 1279px) {
-	.photo-grid {}
+@media screen and (max-width: 1281px) {
+	.photo-grid {
+		margin: 0 48px 92px;
+	}
 }
 
-@media screen and (max-width: 1023px) {
-	.photo-grid {}
+@media screen and (max-width: 769px) {
+	.photo-grid {
+		margin: 0 24px 88px;
+	}
 }
 
-@media screen and (max-width: 767px) {
-	.photo-grid {}
+@media screen and (max-width: 576px) {
+	.photo-grid {
+		margin: 0 16px 64px;
+	}
 }

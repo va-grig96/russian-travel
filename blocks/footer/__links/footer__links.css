@@ -7,6 +7,10 @@
 	font-weight: 400;
 }
 
-@media screen and (max-width: 700px) {
-	.footer__links {}
+@media screen and (max-width: 769px) {
+	.footer__links {
+		flex-direction: column;
+		font-size: 2.4rem;
+		margin-bottom: 48px;
+	}
 }

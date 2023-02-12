@@ -2,11 +2,15 @@
 	font-size: 3rem;
 	line-height: 1.2;
 	font-weight: 400;
-	margin: 0 0 6.4rem;
-	padding: 0 17rem;
+	margin: 0 auto 64px;
+	max-width: 640px;
+	width: 100%;
 	text-align: center;
 }
 
-@media screen and (max-width: 720px) {
-	.lead__subtitle {}
+@media screen and (max-width: 575px) {
+	.lead__subtitle {
+		font-size: 1.6rem;
+		margin-bottom: 40px;
+	}
 }

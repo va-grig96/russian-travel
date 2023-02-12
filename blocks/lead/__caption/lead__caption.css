@@ -6,10 +6,20 @@
 	text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
-	.lead__caption {}
+@media screen and (max-width: 1025px) {
+	.lead__caption {
+		margin: 8px 48px 0;
+	}
 }
 
-@media screen and (max-width: 320px) {
-	.lead__caption {}
+@media screen and (max-width: 769px) {
+	.lead__caption {
+		margin: 8px 24px 0;
+	}
+}
+
+@media screen and (max-width: 321px) {
+	.lead__caption {
+		margin: 8px 16px 0;
+	}
 }

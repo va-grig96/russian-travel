@@ -1,12 +1,23 @@
 .lead {
 	max-width: 984px;
-	margin: 0 auto 9.2rem;
+	width: 100%;
+	margin: 0 auto 92px;
 }
 
-@media screen and (max-width: 1024px) {
-	.lead {}
+@media screen and (max-width: 1025px) {
+	.lead {
+		max-width: 928px;
+	}
 }
 
-@media screen and (max-width: 768px) {
-	.lead {}
+@media screen and (max-width: 769px) {
+	.lead {
+		margin-bottom: 88px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.lead {
+		margin-bottom: 64px;
+	}
 }

@@ -2,9 +2,11 @@
 	font-size: 5.4rem;
 	line-height: 1;
 	font-weight: 900;
-	margin: 0 0 4rem;
+	margin: 0 0 40px;
 }
 
-@media screen and (max-width: 320px) {
-	.intro__title {}
+@media screen and (max-width: 576px) {
+	.intro__title {
+		font-size: 3.2rem;
+	}
 }
